@@ -2,8 +2,6 @@ idade = int(input("insira sua idade:\n"))
 if idade < 0:
     print("impossivel!")
     print("não precisa se alistar.")
-if idade < 18:
-    print("não precisa se alistar.")
 else:
     if idade > 18 and (idade < 65):
         print("Não esqueça de votar na próxima eleição.")
