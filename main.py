@@ -1,6 +1,6 @@
 idade = int(input("insira sua idade:\n"))
 if idade < 0:
-    print("impossivel!")
+    print("impossivel!\n não precisa se alistar.")
 if idade < 18:
     print("não precisa se alistar.")
 else:
